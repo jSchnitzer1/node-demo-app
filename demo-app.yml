@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: demo-app
-        image: index.docker.io/jschnitzer1/node-demo-app
+        image: index.docker.io/jschnitzer1/node-demo-app:v1
         ports:
         - containerPort: 3000
         livenessProbe:
