@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-  res.send('!Hello v5 World - u5!');
+  res.send('!Hello v5u5 World -> u5!');
 });
 
 var server = app.listen(3000, function () {
